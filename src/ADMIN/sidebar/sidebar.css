@@ -1,0 +1,26 @@
+.sidebar {
+  margin-top: 5.5rem;
+  padding: 30px 0;
+  left: 0;
+  height: 100vh;
+  position: fixed;
+}
+
+/* Style for the navigation items */
+.sidebar-nav-item {
+  list-style: none;
+}
+
+/* Add hover effect for links */
+.sidebar-nav-link:hover {
+  background-color: #ddd;
+}
+
+.sidebar-nav-link {
+  border-radius: 5px;
+  color: rgb(43, 40, 40) !important;
+  font-size: 1rem !important;
+  margin-top: 15px;
+  margin-left: 15px;
+  width: auto !important;
+}

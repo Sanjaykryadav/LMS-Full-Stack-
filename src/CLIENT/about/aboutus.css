@@ -1,0 +1,13 @@
+#about-heading {
+  border-bottom: 2px solid black;
+  margin-top: 2rem;
+  width: fit-content;
+}
+
+.aboutus-bottom-section p {
+  font-size: 1rem;
+}
+
+.lastText {
+  padding: 1% 0% 5% 0%;
+}

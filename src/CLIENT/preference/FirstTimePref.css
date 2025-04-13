@@ -1,0 +1,106 @@
+  .form-container {
+    display: flex;
+    justify-content: center;
+    background: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+  }
+  
+  .content h2 {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .content p {
+    text-align: center;
+    font-size: 16px;
+    margin-bottom: 20px;
+    color: #777;
+  }
+  
+  /* Form styling */
+  .preferences-form {
+    display: flex;
+    flex-direction: column;
+}
+  
+  .checkbox-form-container {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    margin-bottom: 15px;
+    cursor: pointer;
+    position: relative;
+    font-size: 18px;
+    color: #333;
+  }
+  
+  .checkbox-form-container input {
+    display: none;
+  }
+  
+  .checkbox-form-container .checkmark {
+    width: 20px;
+    height: 20px;
+    border: 2px solid #4CAF50;
+    border-radius: 4px;
+    margin-right: 10px;
+    background-color: #fff;
+    transition: background-color 0.3s, border-color 0.3s;
+  }
+  
+  .checkbox-form-container input:checked + .checkmark {
+    background-color: #4CAF50;
+    border-color: #4CAF50;
+  }
+  
+  .checkbox-form-container .checkmark:after {
+    content: '';
+    position: absolute;
+    display: none;
+  }
+  
+  .checkbox-form-container input:checked + .checkmark:after {
+    display: block;
+    left: 7px;
+    top: 4px;
+    width: 6px;
+    height: 12px;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    transform: rotate(45deg);
+  }
+  
+  .checkbox-form-container:hover .checkmark {
+    border-color: #388E3C;
+  }
+  
+  .checkbox-form-container:hover {
+    background-color: #f1f1f1;
+    border-radius: 6px;
+    transition: background-color 0.3s;
+  }
+  
+  /* Button styling */
+  .form-footer {
+    text-align: center;
+  }
+  
+  .form-footer  button {
+    background-color: #58c75c;
+    color: white;
+    font-size: 18px;
+    margin: 10px 0px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .form-footer  button:hover {
+    background-color: #3c8a40;
+    color: white;
+  }

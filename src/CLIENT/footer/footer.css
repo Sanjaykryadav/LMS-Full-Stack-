@@ -1,0 +1,36 @@
+.list-unstyled a {
+  text-decoration: none;
+  color: rgb(94, 92, 92);
+}
+
+.list-unstyled a:hover{
+  transition: 0.1s ease-in-out;
+  color: black;
+}
+
+footer {
+  background-color: #c0c0c0aa;
+  padding: 3% 0% 0% 0%;
+}
+
+.col-md-4 li{
+  padding: 2% 0%;
+  color: black;
+}
+
+.col-md-4 li:hover{
+cursor: pointer;
+}
+
+footer h5 {
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+
+.rowborder{
+  border-top: 1px solid rgb(97, 97, 97);
+}
+
+.bot{
+  padding: 6% 0% 6% 0%;
+}

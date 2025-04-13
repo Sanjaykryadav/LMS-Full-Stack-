@@ -1,0 +1,75 @@
+.navbar {
+  background-color: #ffffff;
+  box-shadow: 1px 1px 10px 1px gray;
+}
+
+.nav-link:focus, .nav-link:active {
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+.nav-link {
+  position: relative;
+}
+
+.nav-link:after {
+  content: ''; 
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0; 
+  height: 2px; 
+  background-color: #000000; 
+  transition: width 0.3s ease; 
+}
+
+.nav-link:hover:after, .nav-link:focus:after {
+  width: 100%; 
+}
+
+
+/* Gap between navbar links */
+li {
+  margin-right: 0.8rem;
+}
+
+.a {
+  text-decoration: none;
+  color: black;
+}
+.a:hover {
+  color: black;
+}
+
+/* rendering based on if user logged or not */
+#nav-conditional-rendering {
+  display: flex;
+}
+
+@media screen and (max-width: 1199px) {
+  #nav-conditional-rendering {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+/* Navbar mobile button */
+#navbar-mobileview-btn {
+  box-shadow: none;
+}
+
+@media screen and (max-width: 380px) {
+  #navbar-mobileview-btn {
+    font-size: 1rem;
+  }
+
+  #navbar-title-text {
+    font-size: 1.1rem;
+  }
+}
+
+@media screen and (max-width: 340px) {
+  #navbar-mobileview-btn {
+    font-size: 0.5rem;
+  }
+}
