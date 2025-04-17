@@ -45,7 +45,7 @@ const Footer = () => {
         <div className="row rowborder">
           <div className="col-md-4">
             <div className="bot">
-            Copyright@{currentYear}. Created By Shiv with ‪‪❤︎‬
+            Copyright@{currentYear}. Created By S.K.Yadav ‪‪❤︎‬
             </div>
           </div>
         </div>
