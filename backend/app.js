@@ -32,12 +32,10 @@ const adminHomePageInfoRouter = require("./routes/adminHomePageInfoRoute");
 const CustomError = require("./errorHandler/CustomError");
 const PageNotFound = require("./errorHandler/PageNotFound");
 
-// Allow CORS Policy
-// app.use(cors())
+
 
 // For recieiving httpOnly cookies
-app.use(cors({ credentials: true, origin: "http://localhost:5173" }));
-
+app.use(cors({ credentials: true, origin: "*" }));
 app.use(cookieParser());
 
 // Parse Form data in JSON Format
